@@ -1,0 +1,18 @@
+[package]
+description = "Cargo command to report which SIMD levels your Intel/AMD CPU supports and are enabled."
+name = "cargo-simd-detect"
+version = "0.1.0-beta.1"
+edition = "2021"
+repository = "https://github.com/CarlKCarlK/cargo-simd-detect"
+readme = "README.md"
+authors = ["Carl Kadie"]
+license = "MIT OR Apache-2.0"
+keywords = ["simd", "cargo", "subcommand"]
+categories = [
+    "development-tools::profiling",
+    "development-tools::cargo-plugins",
+]
+homepage = "https://github.com/CarlKCarlK/cargo-simd-detect"
+
+
+[dependencies]
