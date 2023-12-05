@@ -8,11 +8,11 @@ Run
 
 ```bash
 # assumes rustup override set nightly
-cargo install cargo-simd-detect --force --version 0.1.0-beta.2
+cargo install cargo-simd-detect --force
 cargo simd-detect
 ```
 
-To see changes to "enabled", you must re-install with `cargo install cargo-simd-detect --force --version 0.1.0-beta.2`.
+To see changes to "enabled", you must re-install with `cargo install cargo-simd-detect --force`.
 
 Output
 -------
