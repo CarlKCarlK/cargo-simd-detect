@@ -11,7 +11,7 @@ macro_rules! print_target_feature_status {
 }
 
 fn main() {
-    println!("feature   \twidth           \tavailable\tenabled");
+    println!("extension   \twidth           \tavailable\tenabled");
     print_target_feature_status!("sse2", 128);
     print_target_feature_status!("avx2", 256);
     print_target_feature_status!("avx512f", 512);

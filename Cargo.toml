@@ -1,7 +1,7 @@
 [package]
 description = "Rust nightly cargo command to report which SIMD extensions your Intel/AMD CPU supports and are enabled."
 name = "cargo-simd-detect"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 repository = "https://github.com/CarlKCarlK/cargo-simd-detect"
 readme = "README.md"
